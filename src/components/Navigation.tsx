@@ -25,7 +25,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/7cc4cd4d-8aaf-47ac-a7d4-aa8df6d3e4c0.png" 
               alt="TALKA" 
-              className="h-10 w-auto max-w-[120px] object-contain" // MODIFICAÇÃO: Altura da logo alterada de h-12 para h-10
+              className="h-12 w-auto max-w-[120px] object-contain" // MODIFICAÇÃO: Altura da logo restaurada para h-12
             />
           </Link>
 
