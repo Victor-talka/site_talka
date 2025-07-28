@@ -9,7 +9,7 @@ const Navigation = () => {
 
   const navItems = [
     { name: "O que Fazemos", path: "/o-que-fazemos" },
-    { name: "Nossas Soluções", path: "/solucoes" },
+    { name: "Nossas Soluções", path: "/solucos" },
     { name: "Insights", path: "/insights" },
     { name: "Sobre Nós", path: "/sobre" },
   ];
@@ -25,9 +25,8 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/7cc4cd4d-8aaf-47ac-a7d4-aa8df6d3e4c0.png" 
               alt="TALKA" 
-              // AJUSTE FINAL: Tamanho proporcional de 52px.
-              style={{ height: '52px !important' }}
-              className="w-auto object-contain"
+              // CORREÇÃO FINAL: Definindo a LARGURA e deixando a altura automática
+              className="w-32 h-auto object-contain"
             />
           </Link>
 
