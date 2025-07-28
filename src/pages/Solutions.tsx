@@ -15,7 +15,7 @@ const Solutions = () => {
               <span className="gradient-text">Inteligência Aplicada</span> para Setores Específicos
             </h1>
             <p className="text-xl text-corporate-lg max-w-4xl mx-auto">
-              Acreditamos que o verdadeiro impacto da tecnologia acontece quando ela é moldada para as necessidades únicas de cada indústria. 
+              Acreditamos que o verdadeiro impacto da tecnologia acontece quando ela é moldada para as necessidades únicas de cada empresa. 
               Conheça nossas soluções prontas para transformar seu mercado.
             </p>
           </div>
@@ -156,7 +156,7 @@ const Solutions = () => {
         <section className="section-padding">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              Sua indústria tem um <span className="gradient-text">desafio único</span>?
+              Sua empresa tem um <span className="gradient-text">desafio único</span>?
             </h2>
             <p className="text-xl text-corporate-lg mb-10">
               Se o seu setor não está listado, mas você acredita que a automação inteligente pode revolucionar sua operação, 

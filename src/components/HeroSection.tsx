@@ -12,15 +12,15 @@ const HeroSection = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-accent/10 rounded-full blur-3xl animate-pulse delay-500" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-float-up">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
             <span className="gradient-text">
-              Reinventando
+              Aumente
             </span>
             <br />
             <span className="text-foreground">
-              o Potencial dos
+              o potencial dos
             </span>
             <br />
             <span className="gradient-text">
