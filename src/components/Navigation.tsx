@@ -25,7 +25,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/7cc4cd4d-8aaf-47ac-a7d4-aa8df6d3e4c0.png" 
               alt="TALKA" 
-              className="h-12 w-auto max-w-[120px] object-contain" // GARANTIA: A classe h-12 define a altura para 3rem (48px).
+              className="h-14 w-auto max-w-[150px] object-contain" // MODIFICAÇÃO: Altura aumentada para h-14
             />
           </Link>
 
