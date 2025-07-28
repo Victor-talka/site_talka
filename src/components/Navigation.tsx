@@ -25,13 +25,13 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/7cc4cd4d-8aaf-47ac-a7d4-aa8df6d3e4c0.png" 
               alt="TALKA" 
-              // MODIFICAÇÃO FINAL: Usando estilo inline para forçar o tamanho
-              style={{ height: '56px' }} 
+              // CORREÇÃO DEFINITIVA: Forçando a altura com !important
+              style={{ height: '56px !important' }}
               className="w-auto object-contain"
             />
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* O resto do componente continua igual... */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
@@ -50,8 +50,6 @@ const Navigation = () => {
               <Link to="/contato">Contato</Link>
             </Button>
           </div>
-
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <Button
               variant="ghost"
@@ -59,12 +57,10 @@ const Navigation = () => {
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6" />}
             </Button>
           </div>
         </div>
-
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-card rounded-lg mt-2 border border-border">
