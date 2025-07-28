@@ -25,8 +25,8 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/7cc4cd4d-8aaf-47ac-a7d4-aa8df6d3e4c0.png" 
               alt="TALKA" 
-              // CORREÇÃO DEFINITIVA: Forçando a altura com !important
-              style={{ height: '56px !important' }}
+              // AJUSTE FINAL: Tamanho proporcional de 52px.
+              style={{ height: '52px !important' }}
               className="w-auto object-contain"
             />
           </Link>
@@ -57,7 +57,7 @@ const Navigation = () => {
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6" />}
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
           </div>
         </div>
